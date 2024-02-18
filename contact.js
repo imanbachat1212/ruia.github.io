@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     // Sending the form data using fetch
-    fetch("http://localhost:5000/contact/apply", {
+    fetch("https://backend-ruia.onrender.com/contact/apply", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

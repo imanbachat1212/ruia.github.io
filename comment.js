@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const comment = document.getElementById("commentInput").value;
 
     // Send the data using fetch to your backend
-    fetch("/comments/post", {
+    fetch("https://backend-ruia.onrender.com/comments/post", {
       // Use the correct endpoint you defined in your backend
       method: "POST",
       headers: {
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 // Function to load comments
 function loadComments() {
-  fetch("/comments/get") // Use the correct endpoint you defined in your backend
+  fetch("https://backend-ruia.onrender.com/comments/get") // Use the correct endpoint you defined in your backend
     .then((response) => response.json())
     .then((comments) => {
       const commentsList = document.getElementById("commentsList"); // Replace with your actual element

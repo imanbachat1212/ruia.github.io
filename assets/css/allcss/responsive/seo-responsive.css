@@ -1223,6 +1223,9 @@
   #contact-form {
     margin-top: 30%;
   }
+  #serv {
+    margin-top: -30%;
+  }
   .contact_left_inner .witr_section_title {
     margin-top: -20%;
   }
@@ -1258,9 +1261,7 @@
     font-weight: 200;
     padding: 10px 10px;
   }
-  .slider_img_inner {
-    margin-top: 25px;
-  }
+
   .witr_swiper_area {
     margin-top: 64px;
   }

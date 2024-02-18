@@ -705,6 +705,7 @@ a.dtbtn {
   padding: 16px 34px;
   background: #6254e7;
   color: #fff;
+  white-space: nowrap;
 }
 a.dtbtn:hover {
   background: #0a2a43;
@@ -2577,7 +2578,6 @@ section {
 }
 .contact_left_inner .witr_section_title_inner p {
   color: #6a6c7c;
-  font-size: 21px;
   width: 100%;
 }
 .contact_left_inner .witr_section_title {

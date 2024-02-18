@@ -1238,13 +1238,19 @@
   .ocwdc_search_div {
     width: 60%;
     padding: 0 0;
-    /* margin-bottom: 20%; */
   }
 
   .slider_img_inner .single_image_area {
     width: 30%;
     margin-left: 70%;
     margin-top: -56%;
+  }
+  #phone {
+    width: 133%;
+    bottom: 10px;
+  }
+  .iti__selected-flag {
+    bottom: 10px;
   }
   #about-image {
     display: none;

@@ -1259,6 +1259,10 @@
     font-size: small;
     white-space: 0;
   }
+  .about-vision-content p {
+    margin: 0 auto; /* this centers the paragraph if that's desired */
+    text-align: justify;
+  }
   .seo_blog_area {
     margin-top: -20%;
   }
@@ -1732,6 +1736,7 @@
   }
   .seo-single-blog-details-inner {
     padding: 38px 25px 45px;
+    text-align: justify;
   }
   .seo-single-icon-inner a {
     margin-bottom: 5px;

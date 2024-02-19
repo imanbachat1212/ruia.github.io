@@ -1,3 +1,5 @@
+import { BASE_URL } from "./const.js";
+
 document.addEventListener("DOMContentLoaded", function () {
   var contactForm = document.getElementById("contact-form");
   contactForm.addEventListener("submit", function (event) {
@@ -13,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     // Sending the form data using fetch
-    fetch("https://backend-ruia.onrender.com/contact/apply", {
+    fetch(`${BASE_URL}/contact/apply`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

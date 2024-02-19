@@ -1738,6 +1738,10 @@
     padding: 38px 25px 45px;
     text-align: justify;
   }
+  .comment_field .textarea-field label {
+    margin-left: 2%;
+    margin-top: -20%;
+  }
   .seo-single-icon-inner a {
     margin-bottom: 5px;
   }

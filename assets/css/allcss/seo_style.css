@@ -3286,10 +3286,3 @@ a.page-numbers {
 
   color: #666; /* Adjust the color as needed */
 }
-
-/* Optional: If you want the name and comment to stack on smaller screens */
-@media (max-width: 600px) {
-  /* .comment-box {
-    flex-direction: column;
-  } */
-}

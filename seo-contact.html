@@ -16,6 +16,7 @@
       type="image/png"
       href="assets/images/seo/farah logo 2 outline.png"
     />
+
     <link
       rel="stylesheet"
       type="text/css"
@@ -48,6 +49,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
     <!-- modernizr js -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
     <script type="module" src="contact.js"></script>
@@ -290,11 +300,16 @@
                           ></textarea>
                         </div>
                         <div class="form-group">
-                          <button
-                            onclick="window.open('https://outlook.live.com/owa/calendar/7a2c23c4-6074-4bfb-9719-abbefd1523bc/54ec7014-f974-453b-abab-a889b77c2707/cid-1CD817EB0D4FA0D1/index.html', 'popup', 'width=600,height=600'); return false;"
+                          <!-- Calendly link widget begin -->
+
+                          <a
+                            href=""
+                            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/farah-b-salhab?hide_gdpr_banner=1'});return false; "
+                            class="btn btn-primary"
+                            >Schedule time with me</a
                           >
-                            Schedule an Appointment
-                          </button>
+
+                          <!-- Calendly badge widget end -->
                         </div>
                         <button type="submit" class="btn btn-primary">
                           Submit Now
@@ -310,18 +325,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div id="myModal" class="modal">
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <iframe
-          src="https://calendar.google.com/calendar/embed?src=farah.b.salhab%40gmail.com&ctz=Asia%2FBeirut"
-          style="border: solid 1px #777"
-          width="400"
-          height="400"
-        ></iframe>
       </div>
     </div>
 

@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Prevents the default button click behavior
     event.preventDefault();
-    alert("Wait a minute please");
 
     // Collecting form data
     var formData = {

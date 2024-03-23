@@ -3228,8 +3228,8 @@ a.page-numbers {
     width: 100%; /* Keep at 100% to fill the column width */
     height: 100px;
   }
-  */ .title-port {
-    font-size: 30px;
+  .title-port {
+    font-size: 20px;
   }
 
   .layer {
